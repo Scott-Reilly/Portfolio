@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        #Projects{
+            display: flex;
+        }
+        header{
+            background-color: black;
+            color: white;
+            margin-bottom: 60px;
+        }
+        h1{
+            font-size: 50px;
+            padding: 20px 20px 20px 80px;
+            margin:10
+        }
+        body{
+            background-color: #f4f1de;
+        }
+        .card{
+            background-color: #81b29a;
+            width: 30vw;
+            margin: 0vw 2.5vw 0vw 2.5vw;
+            padding: 15px
+        }
+        .card-title{
+            margin-top: 5px;
+        }
+        .btn-primary{
+            background-color: #3d405b;
+            border-color: #3d405b;
+        }
+        footer{
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Scott Reilly</h1></header>
+    <div id="Projects">
+        <div class="card">
+            <img src="./assets/images/BdayInvite.png" alt="Preview of Birthday invite page" class="card-img-top">
+            <h5 class="card-title">Birthday Invite</h5>
+            <p class="card-text">An invite to My Birthday -.-</p>
+            <a href="./public/birthday-invite.html"><button class="btn btn-primary">View</button></a>
+        </div>
+        <div class="card">
+            <img src="./assets/images/Movie List.png" alt="" class="card-img-top">
+            <h5 class="card-title">Favorite Movies</h5>
+            <p class="card-text">A List Of The Best Movies. Hands down.</p>
+            <a href="./public/movie-ranking.html"><button class="btn btn-primary">View</button></a>
+        </div>
+        <div class="card">
+            <img src="" alt="" class="card-img-top">
+            <h5 class="card-title">Traffic Simulator</h5>
+            <p class="card-text">Built On Python And Powered By AI™</p>
+            <a href="https://github.com/Scott-Reilly/Traffic-Simulator"><button class="btn btn-primary">View</button></a>
+        </div>
+    </div>
+    <footer>
+        <a href="./public/about.html">About Me</a> <a href="./public/contact.html">Contact</a>
+    </footer>
+</body>
+</html>
